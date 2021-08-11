@@ -1,0 +1,8 @@
+{
+    "timeouts": {
+        "shortWait": 10000,
+        "mediumWait": 10000,
+        "longWait": 100000,
+        "extendedWaits": 200000
+    }
+}
