@@ -18,6 +18,8 @@ describe("jeevansathi cypress automation", function () {
         searchPageObj.selectReligionAndCast();
         searchPageObj.selectMotherToungeCountryCity();
         cy.pause();
+        cy.log("second edit");
+        cy.log("is done by the great muthu");
     })
 
     it("INCOME PREFERANCE", function () {
