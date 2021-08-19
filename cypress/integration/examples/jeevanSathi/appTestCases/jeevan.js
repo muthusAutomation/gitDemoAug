@@ -18,7 +18,7 @@ describe("jeevansathi cypress automation", function () {
         searchPageObj.selectReligionAndCast();
         searchPageObj.selectMotherToungeCountryCity();
         cy.pause();
-        cy.log("second edit");
+
         cy.log("is done by muthu");
     })
 
