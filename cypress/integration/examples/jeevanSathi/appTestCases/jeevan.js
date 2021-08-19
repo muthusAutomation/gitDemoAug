@@ -17,6 +17,7 @@ describe("jeevansathi cypress automation", function () {
     it("GIRLS ETHINICITY PREFERANCE", function () {
         searchPageObj.selectReligionAndCast();
         searchPageObj.selectMotherToungeCountryCity();
+        cy.pause();
     })
 
     it("INCOME PREFERANCE", function () {
