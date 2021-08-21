@@ -11,23 +11,23 @@ describe("jeevansathi cypress automation", function () {
     })
 
     it("GIRLS AGE AND HEIGHT PREFERANCE", function () {
-        searchPageObj.selectAgeAndHeight()
-        cy.log("is done by muthu");
+        searchPageObj.selectAgeAndHeight();
+        cy.pause();
+        
     })
 
     it("GIRLS ETHINICITY PREFERANCE", function () {
         searchPageObj.selectReligionAndCast();
         searchPageObj.selectMotherToungeCountryCity();
         cy.pause();
-        cy.log("second edit");
-        cy.log("is done by muthu");
+        
     })
 
     it("INCOME PREFERANCE", function () {
         searchPageObj.selectIncomeStatus();
         searchPageObj.maritalStatusAndPhoto();
         searchPageObj.lifeStyle();
-        cy.log("is done by muthu");
+        
     })
     
 })
