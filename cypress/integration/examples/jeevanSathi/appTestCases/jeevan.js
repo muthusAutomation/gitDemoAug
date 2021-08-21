@@ -11,16 +11,12 @@ describe("jeevansathi cypress automation", function () {
     })
 
     it("GIRLS AGE AND HEIGHT PREFERANCE", function () {
-        searchPageObj.selectAgeAndHeight();
-        cy.pause();
-        
+        searchPageObj.selectAgeAndHeight();   
     })
 
     it("GIRLS ETHINICITY PREFERANCE", function () {
         searchPageObj.selectReligionAndCast();
-        searchPageObj.selectMotherToungeCountryCity();
-        cy.pause();
-        
+        searchPageObj.selectMotherToungeCountryCity();    
     })
 
     it("INCOME PREFERANCE", function () {
